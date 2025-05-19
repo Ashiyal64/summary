@@ -1,4 +1,4 @@
-pygments==2.19.1
-mdurl==0.1.2
-markdown-it-py==3.0.0
-rich==14.0.0
+streamlit==1.34.0      # web UI
+spacy==3.7.4           # core NLP
+pytextrank==0.4.6      # TextRank pipeline component
+en_core_web_lg==3.7.0  # large English model (spaCy package)
