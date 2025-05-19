@@ -35,14 +35,15 @@ if prompt is not None:
                 st.error(f"Error: {e}")
 
 # ---------- Display full conversation ----------
-st.divider()
+
+
 st.subheader("Natural Language Processing (NLP)")
 st.header("longe text---> summary")
 
 for i, turn in enumerate(st.session_state.history, 1):
-    st.markdown(f" User Enter  text {turn['prompt']}")
-    st.markdown(f"**Summary:** {turn['summary']}")
-    st.divider()
+    st.write(f" User Enter  text {turn['prompt']}")
+    st.write(f"**Summary:** {turn['summary']}")
+   
 
 # ---------- Optional clear-chat button ----------
 if st.button("Clear history"):
