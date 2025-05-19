@@ -1,7 +1,4 @@
---only-binary=:all:          # <-- add this line
-pip==25.1.1                  # keep pip up-to-date inside the venv
-
-streamlit==1.34.0
 spacy==3.7.4
 pytextrank==0.4.6
+streamlit==1.34.0
 en_core_web_lg==3.7.0
