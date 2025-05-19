@@ -3,45 +3,8 @@ import spacy
 import streamlit as st
 
 
-# nlp=spacy.load("en_core_web_lg")
-# nlp.add_pipe("textrank")
-#
-#
-#
-#
-#
-# with st.form(key="form"):
-#     text = st.text_input("Enter a text")
-#
-#     doc = nlp(text)
-#     submit=st.form_submit_button(label="submit")
-#     if submit:
-#         for sent in doc._.textrank.summary():
-#             st.write(sent)
-
-# nlp=spacy.load("en_core_web_lg")
-# nlp.add_pipe("textrank")
-#
-# prompt= st.chat_input("Enter a text")
-# doc = nlp(prompt)
-# if prompt:
-#     if prompt.strip()=="":
-#         st.write("Please enter a description")
-#     else:
-#         with st.spinner("processing..."):
-#          try:
-#              for sent in doc._.textrank.summary():
-#                      st.write(sent)
-#
-#          except Exception as e:
-#              st.write(e)
 
 
-
-
-
-import streamlit as st
-import spacy
 
 # ---------- One-time initialisation ----------
 # (spaCy model is cached so it loads only once per session)
