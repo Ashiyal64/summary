@@ -1,4 +1,11 @@
-spacy==3.7.4
-pytextrank==0.4.6
-streamlit==1.34.0
-en_core_web_lg==3.7.0
+# ── Web UI ─────────────────────────────────────────
+streamlit==1.34.0          # latest stable (May 2025)
+
+# ── NLP stack ──────────────────────────────────────
+spacy==3.7.4               # wheels for Python 3.8-3.12
+pytextrank==0.4.6          # TextRank component
+en_core_web_lg==3.7.0      # large English model (790 MB wheel)
+
+# ── (optional) keep pip current inside the venv ───
+pip==25.1.1
+
